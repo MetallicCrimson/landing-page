@@ -31,9 +31,10 @@ body {
     margin-right: auto;
 }
 
-.header-link {
+.header > a {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 .hero-text {
@@ -51,8 +52,14 @@ body {
     gap: 20px;
 }
 
-.hero-image > img {
+.hero-image {
     width: 522px;
+}
+
+.hero-image > img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
     border: 2px solid #e5e7eb;
     border-radius: 16px;
 }
@@ -80,6 +87,13 @@ body {
     border: none;
 }
 
+.hero-text > button:hover {
+    background-color: #3272da;
+}
+
+.hero-text > button:active {
+    transform: scale(.98);
+}
 
 .information {
     background-color: #bbb;
