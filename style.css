@@ -1,6 +1,6 @@
-
 body {
     min-height: 100vh;
+    height: 200vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,23 +11,25 @@ body {
 }
 
 .hero {
+    height: 516px;
     background-color: #1f2937;
 
-    display: flex;
-    align-items: center;
-    padding: 16px 100px;
-    flex-wrap: wrap;
+    padding: 18px 154px 0px 208px;
 }
 
 .header {
     flex-basis: 100%;
     display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 124px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: 800;
+    margin-right: auto;
 }
 
 .header-link {
@@ -35,28 +37,54 @@ body {
     color: #e5e7eb;
 }
 
-.hero-main, .hero-image {
-    flex-basis: 50%;
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex-basis: 45%;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-image {
+    flex-basis: 522px;
 }
 
 .img-placeholder {
-    width: 200px;
-    height: 200px;
-    background-color: #bbb;
+    width: 100%;
+    height: 100%;
+    background-color: #6D747D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero-main-1 {
+.hero-text-1 {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900px;
+    font-weight: 900;
+    margin-bottom: -14px; /* what */
 }
 
-.hero-main-2 {
+.hero-text-2 {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-
+.hero-text > button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 32px;
+    align-self: flex-start;
+    border-radius: 8px;
+    border: none;
+}
 
 
 .information {
