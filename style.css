@@ -13,10 +13,12 @@ body {
     height: 476px;
     background-color: #1f2937;
 
-    padding: 18px 192px 40px 208px;
+    padding: 18px 0 40px 0;
 }
 
 .header {
+    padding-left: 10%;
+    padding-right: 10%;
     flex-basis: 100%;
     display: flex;
     align-items: center;
@@ -53,6 +55,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .hero-image {
