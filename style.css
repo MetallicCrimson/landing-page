@@ -1,6 +1,5 @@
 body {
     min-height: 100vh;
-    height: 200vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +10,7 @@ body {
 }
 
 .hero {
-    min-height: 476px;
+    height: 476px;
     background-color: #1f2937;
 
     padding: 18px 192px 40px 208px;
@@ -190,4 +189,5 @@ body {
     color: #e5e7eb;
     text-align: center;
     padding: 32px;
+    margin-bottom: 0;
 }
