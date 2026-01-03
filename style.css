@@ -80,7 +80,7 @@ body {
     color: #e5e7eb;
 }
 
-.hero-text > button {
+.hero-text > button, .call-to-action > button {
     background-color: #3882f6;
     color: white;
     font-size: 18px;
@@ -91,11 +91,11 @@ body {
     border: none;
 }
 
-.hero-text > button:hover {
+.hero-text > button:hover, .call-to-action > button:hover {
     background-color: #3272da;
 }
 
-.hero-text > button:active {
+.hero-text > button:active, .call-to-action > button:active {
     transform: scale(.98);
 }
 
@@ -116,6 +116,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 46px;
+    padding-bottom: 100px;
 }
 
 .info-sections > div {
@@ -143,13 +144,50 @@ body {
 
 
 .quote {
-    background-color: #999;
+    background-color: #e5e7eb;
+    padding: 100px 21% 80px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: end;
 }
 
 .call-to-action {
-    background-color: #bbb;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    margin: 100px 190px;
+    padding: 45px 110px;
+}
+
+.action-text-1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.action-text-2 {
+    color: #e5e7eb;
+}
+
+.call-to-action > button {
+    border: 2px solid white;
 }
 
 .footer {
-    background-color: #999;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 32px;
 }
